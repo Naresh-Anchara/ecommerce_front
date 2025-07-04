@@ -86,7 +86,7 @@ const router = createBrowserRouter([
       ]
     } 
     
-  ]
+  ] ,
   {
     basename: "/ecommerce_front", // 👈 REQUIRED for GitHub Pages
   }
