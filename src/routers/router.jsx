@@ -24,10 +24,10 @@ import ManageUsers from "../pages/dashboard/admin/users/ManageUsers";
 import ManageOrders from "../pages/dashboard/admin/manageOrders/ManageOrders";
 const router = createBrowserRouter([
     {
-      path: "ecommerce_front/",
+      path: "/ecommerce_front",
       element: <App/>,
       children: [
-        {path: "ecommerce_front/",element:<Home/>},
+        {path: "/ecommerce_front",element:<Home/>},
         {path: "/categories/:categoryName",element:<CategoryPage/>},
         {path: "/search",element:<Search/>},
         {path: "/shop",element:<ShopPage/>},
