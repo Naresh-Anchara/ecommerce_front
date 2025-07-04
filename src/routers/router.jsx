@@ -84,9 +84,12 @@ const router = createBrowserRouter([
         element : <PrivateRoute role="admin"><ManageOrders/></PrivateRoute>
       },
       ]
-    } , 
-    {
+    } 
+    
+  ]
+  {
     basename: "/ecommerce_front", // 👈 REQUIRED for GitHub Pages
   }
-  ]);
+
+);
   export default router;
